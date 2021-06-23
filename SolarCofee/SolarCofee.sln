@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Data", "SolarCoffee.Data\SolarCoffee.Data.csproj", "{37EE30EB-F6C1-4229-9E85-F5F3A07D07FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarCoffee.Data", "SolarCoffee.Data\SolarCoffee.Data.csproj", "{37EE30EB-F6C1-4229-9E85-F5F3A07D07FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Services", "SolarCoffee.Services\SolarCoffee.Services.csproj", "{D16EC4AA-485C-41CC-B984-81EA2D4F3224}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarCoffee.Services", "SolarCoffee.Services\SolarCoffee.Services.csproj", "{D16EC4AA-485C-41CC-B984-81EA2D4F3224}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Test", "SolarCoffee.Test\SolarCoffee.Test.csproj", "{C2927DA1-1B6F-42C3-994A-7BDD33F8830D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarCoffee.Test", "SolarCoffee.Test\SolarCoffee.Test.csproj", "{C2927DA1-1B6F-42C3-994A-7BDD33F8830D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCofee.Web", "SolarCoffee.Web\SolarCofee.Web.csproj", "{70D989B9-54F3-4704-B140-A99C11694EF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarCoffee.Web", "SolarCoffee.Web\SolarCoffee.Web.csproj", "{70D989B9-54F3-4704-B140-A99C11694EF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{37EE30EB-F6C1-4229-9E85-F5F3A07D07FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +69,11 @@ Global
 		{70D989B9-54F3-4704-B140-A99C11694EF7}.Release|x64.Build.0 = Release|Any CPU
 		{70D989B9-54F3-4704-B140-A99C11694EF7}.Release|x86.ActiveCfg = Release|Any CPU
 		{70D989B9-54F3-4704-B140-A99C11694EF7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {920A108E-FB67-4C5A-8F67-8635B336BA53}
 	EndGlobalSection
 EndGlobal
