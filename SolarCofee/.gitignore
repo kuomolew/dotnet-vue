@@ -1,3 +1,7 @@
-*/node_modules
-*/obj
-*/bin
+**/node_modules/**
+**/obj
+**/bin
+.DS_Store 
+**/.workspace.xml
+.vs
+.idea
